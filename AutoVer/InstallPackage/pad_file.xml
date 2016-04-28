@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.50 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Bean</Company_Name>
+		<Address_1 />
+		<Address_2 />
+		<City_Town>Sydney</City_Town>
+		<State_Province />
+		<Zip_Postal_Code />
+		<Country>Australia</Country>
+		<Company_WebSite_URL>http://beanland.net.au</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Hunter</Author_First_Name>
+			<Author_Last_Name>Beanland</Author_Last_Name>
+			<Author_Email>hunter@beanland.net.au</Author_Email>
+			<Contact_First_Name>Hunter</Contact_First_Name>
+			<Contact_Last_Name>Beanland</Contact_Last_Name>
+			<Contact_Email>hunter@beanland.net.au</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>hunter@beanland.net.au</Sales_Email>
+			<Support_Email>hunter@beanland.net.au</Support_Email>
+			<General_Email>hunter@beanland.net.au</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>AutoVer</Program_Name>
+		<Program_Version>2.2.1</Program_Version>
+		<Program_Release_Month>04</Program_Release_Month>
+		<Program_Release_Day>28</Program_Release_Day>
+		<Program_Release_Year>2014</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win2000,Win7 x32,Win7 x64,WinVista,WinVista x64,WinXP</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>Fixes and minor enhancements</Program_Change_Info>
+		<Program_Specific_Category>Utilities</Program_Specific_Category>
+		<Program_Category_Class>System Utilities::Backup &amp; Restore</Program_Category_Class>
+		<Program_System_Requirements>.NET 4.0 Framework</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>1244582</File_Size_Bytes>
+			<File_Size_K>1244</File_Size_K>
+			<File_Size_MB>1.2</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>versioning, version control, real time backup, FTP</Keywords>
+			<Char_Desc_45>Automatic backup and personal version control</Char_Desc_45>
+			<Char_Desc_80>AutoVer is an automatic or real time backup and personal version control system</Char_Desc_80>
+			<Char_Desc_250>AutoVer is a configurable automatic or real time backup and personal version control system. It can be used as a simple real time backup or as a more complex, but transparent version control system (like a realtime incremental backup).</Char_Desc_250>
+			<Char_Desc_450>AutoVer is a configurable automatic or real time backup and personal version control system. It can be used as a simple real time backup or as a more complex, but transparent version control system (like a realtime incremental backup). No remembering to backup or to check in or check out files. Every time you save a file it is copied to your backup folder, drive or FTP server.</Char_Desc_450>
+			<Char_Desc_2000>AutoVer is a configurable automatic or real time backup and personal versioning system. It can be used as a simple real time backup or as a more complex, but transparent version control system (like a realtime incremental backup). The beauty of this system is that once you set it up (which is extremely simple) it does everything. No remembering to backup or to check in or check out files. Every time you save a file it is copied to your backup folder, drive or FTP server. You can include and exclude certain files and browse the backups with the Backup Explorer.
+Great for backing up (or one way synchronising) your work or home documents to flash memory or saving every change you make to your source code or image files.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://beanland.net.au/AutoVer/</Application_Info_URL>
+			<Application_Order_URL />
+			<Application_Screenshot_URL>http://beanland.net.au/AutoVer/screen-composite.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://beanland.net.au/AutoVer/AutoVerLogo.jpg</Application_Icon_URL>
+			<Application_XML_File_URL>http://beanland.net.au/AutoVer/pad_file.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://beanland.net.au/AutoVer/AutoVer-setup.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>AutoVer may be included in any packages, products, magazine cover CDs or web sites providing that it is distributed in its original binary form (setup package) and it is made clear that AutoVer is freeware. Please let the author know if the product is included in such distributions.</Distribution_Permissions>
+		<EULA>Please read the following terms and conditions carefully before using this software. Installation or use of this software signifies that you accept the terms of this licence agreement and warranty.
+
+1. Disclaimer of Warranty
+AutoVer is provided "as-is" and without warranty of any kind, express, implied or otherwise, including without limitation, any warranty of fitness for a particular purpose. USE AT YOUR OWN RISK.
+In no event shall the author of this software be held liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software.
+
+2. Licence
+AutoVer is provided as FREEWARE for use by any party (private, educational, government or commercial use). If you find this product useful, please consider making a small donation to continue its development.
+
+3. Distribution
+AutoVer may be included in any packages, products, magazine cover CDs or web sites providing that it is distributed in its original binary form (setup package) and it is made clear that AutoVer is freeware. Please let the author know if the product is included in such distributions.
+
+4. Restrictions on Use 
+This software must not be decompiled, disassembled, reverse engineered or otherwise modified. You may not emulate, clone, rent, lease, or sell AutoVer.
+
+5. Linked Modules
+This application makes use of linked modules which are covered by their own licences: DotNetZip (Ms-PL), SevenZipSharp (LGPL), ZetaLongPaths (LGPL)
+
+Copyright (C) 2007 - 2014 by Hunter Beanland. All rights reserved.</EULA>
+	</Permissions>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number />
+	</ASP>
+</XML_DIZ_INFO>
