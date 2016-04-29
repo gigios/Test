@@ -111,17 +111,17 @@ Partial Class Settings
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.tmrEnsureSyncUpdates = New System.Windows.Forms.Timer(Me.components)
         Me.bwBackupRestore = New System.ComponentModel.BackgroundWorker()
-        Me.tabControl.SuspendLayout()
-        Me.tabGen.SuspendLayout()
-        Me.grpType.SuspendLayout()
-        Me.tabAdv.SuspendLayout()
-        Me.tabVer.SuspendLayout()
-        Me.grpArc.SuspendLayout()
-        Me.grpArcTo.SuspendLayout()
-        Me.grpVerMax.SuspendLayout()
-        Me.grpVerMode.SuspendLayout()
-        Me.tabFTP.SuspendLayout()
-        Me.SuspendLayout()
+        Me.tabControl.SuspendLayout
+        Me.tabGen.SuspendLayout
+        Me.grpType.SuspendLayout
+        Me.tabAdv.SuspendLayout
+        Me.tabVer.SuspendLayout
+        Me.grpArc.SuspendLayout
+        Me.grpArcTo.SuspendLayout
+        Me.grpVerMax.SuspendLayout
+        Me.grpVerMode.SuspendLayout
+        Me.tabFTP.SuspendLayout
+        Me.SuspendLayout
         '
         'tabControl
         '
@@ -159,46 +159,46 @@ Partial Class Settings
         Me.tabGen.Size = New System.Drawing.Size(373, 282)
         Me.tabGen.TabIndex = 0
         Me.tabGen.Text = "General"
-        Me.tabGen.UseVisualStyleBackColor = True
+        Me.tabGen.UseVisualStyleBackColor = true
         '
         'chkShowEvents
         '
-        Me.chkShowEvents.AutoSize = True
+        Me.chkShowEvents.AutoSize = true
         Me.chkShowEvents.Location = New System.Drawing.Point(6, 205)
         Me.chkShowEvents.Name = "chkShowEvents"
         Me.chkShowEvents.Size = New System.Drawing.Size(143, 17)
         Me.chkShowEvents.TabIndex = 18
         Me.chkShowEvents.Text = "Show on all other events"
         Me.ToolTip1.SetToolTip(Me.chkShowEvents, "Show balloon alert in the System Tray on each copy/rename/delete event")
-        Me.chkShowEvents.UseVisualStyleBackColor = True
+        Me.chkShowEvents.UseVisualStyleBackColor = true
         '
         'chkSubFolders
         '
-        Me.chkSubFolders.AutoSize = True
-        Me.chkSubFolders.Checked = True
+        Me.chkSubFolders.AutoSize = true
+        Me.chkSubFolders.Checked = true
         Me.chkSubFolders.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkSubFolders.Location = New System.Drawing.Point(6, 136)
         Me.chkSubFolders.Name = "chkSubFolders"
         Me.chkSubFolders.Size = New System.Drawing.Size(115, 17)
         Me.chkSubFolders.TabIndex = 17
         Me.chkSubFolders.Text = "Include sub folders"
-        Me.chkSubFolders.UseVisualStyleBackColor = True
+        Me.chkSubFolders.UseVisualStyleBackColor = true
         '
         'chkShowErrors
         '
-        Me.chkShowErrors.AutoSize = True
+        Me.chkShowErrors.AutoSize = true
         Me.chkShowErrors.Location = New System.Drawing.Point(6, 182)
         Me.chkShowErrors.Name = "chkShowErrors"
         Me.chkShowErrors.Size = New System.Drawing.Size(120, 17)
         Me.chkShowErrors.TabIndex = 16
         Me.chkShowErrors.Text = "Show alert on errors"
         Me.ToolTip1.SetToolTip(Me.chkShowErrors, "Show balloon alert in the System Tray on each error")
-        Me.chkShowErrors.UseVisualStyleBackColor = True
+        Me.chkShowErrors.UseVisualStyleBackColor = true
         '
         'lblStats
         '
-        Me.lblStats.AutoSize = True
-        Me.lblStats.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStats.AutoSize = true
+        Me.lblStats.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblStats.Location = New System.Drawing.Point(272, 220)
         Me.lblStats.Name = "lblStats"
         Me.lblStats.Size = New System.Drawing.Size(88, 13)
@@ -207,18 +207,18 @@ Partial Class Settings
         '
         'lblCounts
         '
-        Me.lblCounts.AutoSize = True
+        Me.lblCounts.AutoSize = true
         Me.lblCounts.Location = New System.Drawing.Point(275, 233)
         Me.lblCounts.Name = "lblCounts"
         Me.lblCounts.Size = New System.Drawing.Size(65, 39)
         Me.lblCounts.TabIndex = 14
-        Me.lblCounts.Text = "Changed: 0 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Renamed: 0" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Deleted: 0"
+        Me.lblCounts.Text = "Changed: 0 "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"Renamed: 0"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"Deleted: 0"
         Me.ToolTip1.SetToolTip(Me.lblCounts, "File statistics since AutoVer last started")
         '
         'chkEnabled
         '
-        Me.chkEnabled.AutoSize = True
-        Me.chkEnabled.Checked = True
+        Me.chkEnabled.AutoSize = true
+        Me.chkEnabled.Checked = true
         Me.chkEnabled.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkEnabled.Location = New System.Drawing.Point(298, 17)
         Me.chkEnabled.Name = "chkEnabled"
@@ -226,7 +226,7 @@ Partial Class Settings
         Me.chkEnabled.TabIndex = 1
         Me.chkEnabled.Text = "Enabled"
         Me.ToolTip1.SetToolTip(Me.chkEnabled, "Enable or disable the watcher")
-        Me.chkEnabled.UseVisualStyleBackColor = True
+        Me.chkEnabled.UseVisualStyleBackColor = true
         '
         'grpType
         '
@@ -236,38 +236,38 @@ Partial Class Settings
         Me.grpType.Name = "grpType"
         Me.grpType.Size = New System.Drawing.Size(150, 36)
         Me.grpType.TabIndex = 12
-        Me.grpType.TabStop = False
+        Me.grpType.TabStop = false
         Me.grpType.Text = "Backup Type"
         Me.ToolTip1.SetToolTip(Me.grpType, "Folder or FTP address selected in ""Backup to"" above")
         '
         'rbFolder
         '
-        Me.rbFolder.AutoSize = True
-        Me.rbFolder.Checked = True
+        Me.rbFolder.AutoSize = true
+        Me.rbFolder.Checked = true
         Me.rbFolder.Location = New System.Drawing.Point(21, 13)
         Me.rbFolder.Name = "rbFolder"
         Me.rbFolder.Size = New System.Drawing.Size(54, 17)
         Me.rbFolder.TabIndex = 6
-        Me.rbFolder.TabStop = True
+        Me.rbFolder.TabStop = true
         Me.rbFolder.Text = "Folder"
         Me.ToolTip1.SetToolTip(Me.rbFolder, "Backup to any Windows accessable folder or drive")
-        Me.rbFolder.UseVisualStyleBackColor = True
+        Me.rbFolder.UseVisualStyleBackColor = true
         '
         'rbFTP
         '
-        Me.rbFTP.AutoSize = True
+        Me.rbFTP.AutoSize = true
         Me.rbFTP.Location = New System.Drawing.Point(89, 13)
         Me.rbFTP.Name = "rbFTP"
         Me.rbFTP.Size = New System.Drawing.Size(45, 17)
         Me.rbFTP.TabIndex = 6
-        Me.rbFTP.TabStop = True
+        Me.rbFTP.TabStop = true
         Me.rbFTP.Text = "FTP"
         Me.ToolTip1.SetToolTip(Me.rbFTP, "Ensure the FTP details are filled in on the FTP tab")
-        Me.rbFTP.UseVisualStyleBackColor = True
+        Me.rbFTP.UseVisualStyleBackColor = true
         '
         'lblName
         '
-        Me.lblName.AutoSize = True
+        Me.lblName.AutoSize = true
         Me.lblName.Location = New System.Drawing.Point(3, 18)
         Me.lblName.Name = "lblName"
         Me.lblName.Size = New System.Drawing.Size(38, 13)
@@ -284,14 +284,14 @@ Partial Class Settings
         '
         'chkBackup
         '
-        Me.chkBackup.AutoSize = True
+        Me.chkBackup.AutoSize = true
         Me.chkBackup.Location = New System.Drawing.Point(6, 159)
         Me.chkBackup.Name = "chkBackup"
         Me.chkBackup.Size = New System.Drawing.Size(122, 17)
         Me.chkBackup.TabIndex = 7
         Me.chkBackup.Text = "Create initial backup"
         Me.ToolTip1.SetToolTip(Me.chkBackup, "Create a full backup now")
-        Me.chkBackup.UseVisualStyleBackColor = True
+        Me.chkBackup.UseVisualStyleBackColor = true
         '
         'butBackupFolder
         '
@@ -300,7 +300,7 @@ Partial Class Settings
         Me.butBackupFolder.Size = New System.Drawing.Size(26, 23)
         Me.butBackupFolder.TabIndex = 5
         Me.butBackupFolder.Text = "..."
-        Me.butBackupFolder.UseVisualStyleBackColor = True
+        Me.butBackupFolder.UseVisualStyleBackColor = true
         '
         'btnWatchFolder
         '
@@ -309,7 +309,7 @@ Partial Class Settings
         Me.btnWatchFolder.Size = New System.Drawing.Size(26, 23)
         Me.btnWatchFolder.TabIndex = 3
         Me.btnWatchFolder.Text = "..."
-        Me.btnWatchFolder.UseVisualStyleBackColor = True
+        Me.btnWatchFolder.UseVisualStyleBackColor = true
         '
         'txtWatch
         '
@@ -317,7 +317,7 @@ Partial Class Settings
         Me.txtWatch.Name = "txtWatch"
         Me.txtWatch.Size = New System.Drawing.Size(211, 20)
         Me.txtWatch.TabIndex = 2
-        Me.ToolTip1.SetToolTip(Me.txtWatch, "Absolute or relative path (to AutoVer) to the files and folders to watch for back" & _
+        Me.ToolTip1.SetToolTip(Me.txtWatch, "Absolute or relative path (to AutoVer) to the files and folders to watch for back"& _ 
         "up ")
         '
         'txtBackup
@@ -326,12 +326,12 @@ Partial Class Settings
         Me.txtBackup.Name = "txtBackup"
         Me.txtBackup.Size = New System.Drawing.Size(211, 20)
         Me.txtBackup.TabIndex = 4
-        Me.ToolTip1.SetToolTip(Me.txtBackup, "Absolute or relative path (to watch folder) to the backup folder. May be an FTP a" & _
+        Me.ToolTip1.SetToolTip(Me.txtBackup, "Absolute or relative path (to watch folder) to the backup folder. May be an FTP a"& _ 
         "ddress")
         '
         'lblBackFold
         '
-        Me.lblBackFold.AutoSize = True
+        Me.lblBackFold.AutoSize = true
         Me.lblBackFold.Location = New System.Drawing.Point(3, 71)
         Me.lblBackFold.Name = "lblBackFold"
         Me.lblBackFold.Size = New System.Drawing.Size(59, 13)
@@ -340,7 +340,7 @@ Partial Class Settings
         '
         'lblWatchFold
         '
-        Me.lblWatchFold.AutoSize = True
+        Me.lblWatchFold.AutoSize = true
         Me.lblWatchFold.Location = New System.Drawing.Point(3, 44)
         Me.lblWatchFold.Name = "lblWatchFold"
         Me.lblWatchFold.Size = New System.Drawing.Size(71, 13)
@@ -377,19 +377,19 @@ Partial Class Settings
         Me.tabAdv.Size = New System.Drawing.Size(373, 282)
         Me.tabAdv.TabIndex = 1
         Me.tabAdv.Text = "Advanced"
-        Me.tabAdv.UseVisualStyleBackColor = True
+        Me.tabAdv.UseVisualStyleBackColor = true
         '
         'chkCompareBeforeCopy
         '
-        Me.chkCompareBeforeCopy.AutoSize = True
+        Me.chkCompareBeforeCopy.AutoSize = true
         Me.chkCompareBeforeCopy.Location = New System.Drawing.Point(6, 173)
         Me.chkCompareBeforeCopy.Name = "chkCompareBeforeCopy"
         Me.chkCompareBeforeCopy.Size = New System.Drawing.Size(165, 17)
         Me.chkCompareBeforeCopy.TabIndex = 37
         Me.chkCompareBeforeCopy.Text = "Only copy if content changed"
-        Me.ToolTip1.SetToolTip(Me.chkCompareBeforeCopy, "If not checked, AutoVer will copy the file every time it is saved - even if the f" & _
+        Me.ToolTip1.SetToolTip(Me.chkCompareBeforeCopy, "If not checked, AutoVer will copy the file every time it is saved - even if the f"& _ 
         "ile content did not change. Checking for changes slows performance.")
-        Me.chkCompareBeforeCopy.UseVisualStyleBackColor = True
+        Me.chkCompareBeforeCopy.UseVisualStyleBackColor = true
         '
         'txtSettleDelay
         '
@@ -399,12 +399,12 @@ Partial Class Settings
         Me.txtSettleDelay.Size = New System.Drawing.Size(40, 20)
         Me.txtSettleDelay.TabIndex = 29
         Me.txtSettleDelay.Text = "1"
-        Me.ToolTip1.SetToolTip(Me.txtSettleDelay, "Time in seconds after a change to a file before the copy/rename etc is done. (0.0" & _
+        Me.ToolTip1.SetToolTip(Me.txtSettleDelay, "Time in seconds after a change to a file before the copy/rename etc is done. (0.0"& _ 
         "1 to 300s) ")
         '
         'lblSettle
         '
-        Me.lblSettle.AutoSize = True
+        Me.lblSettle.AutoSize = true
         Me.lblSettle.Location = New System.Drawing.Point(4, 127)
         Me.lblSettle.Name = "lblSettle"
         Me.lblSettle.Size = New System.Drawing.Size(71, 13)
@@ -413,21 +413,21 @@ Partial Class Settings
         '
         'chkRunCopyFirst
         '
-        Me.chkRunCopyFirst.AutoSize = True
-        Me.chkRunCopyFirst.Checked = True
+        Me.chkRunCopyFirst.AutoSize = true
+        Me.chkRunCopyFirst.Checked = true
         Me.chkRunCopyFirst.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkRunCopyFirst.Location = New System.Drawing.Point(280, 104)
         Me.chkRunCopyFirst.Name = "chkRunCopyFirst"
         Me.chkRunCopyFirst.Size = New System.Drawing.Size(85, 17)
         Me.chkRunCopyFirst.TabIndex = 27
         Me.chkRunCopyFirst.Text = "Copy file first"
-        Me.ToolTip1.SetToolTip(Me.chkRunCopyFirst, "Copy the file before running the specified app. Unticked = no copying done (your " & _
+        Me.ToolTip1.SetToolTip(Me.chkRunCopyFirst, "Copy the file before running the specified app. Unticked = no copying done (your "& _ 
         "app to do)")
-        Me.chkRunCopyFirst.UseVisualStyleBackColor = True
+        Me.chkRunCopyFirst.UseVisualStyleBackColor = true
         '
         'lblRunCopy
         '
-        Me.lblRunCopy.AutoSize = True
+        Me.lblRunCopy.AutoSize = true
         Me.lblRunCopy.Location = New System.Drawing.Point(4, 105)
         Me.lblRunCopy.Name = "lblRunCopy"
         Me.lblRunCopy.Size = New System.Drawing.Size(71, 13)
@@ -453,39 +453,39 @@ Partial Class Settings
         '
         'rbEnsureHourly
         '
-        Me.rbEnsureHourly.AutoSize = True
+        Me.rbEnsureHourly.AutoSize = true
         Me.rbEnsureHourly.Location = New System.Drawing.Point(303, 196)
         Me.rbEnsureHourly.Name = "rbEnsureHourly"
         Me.rbEnsureHourly.Size = New System.Drawing.Size(55, 17)
         Me.rbEnsureHourly.TabIndex = 23
         Me.rbEnsureHourly.Text = "Hourly"
-        Me.rbEnsureHourly.UseVisualStyleBackColor = True
+        Me.rbEnsureHourly.UseVisualStyleBackColor = true
         '
         'rbEnsureDaily
         '
-        Me.rbEnsureDaily.AutoSize = True
-        Me.rbEnsureDaily.Checked = True
+        Me.rbEnsureDaily.AutoSize = true
+        Me.rbEnsureDaily.Checked = true
         Me.rbEnsureDaily.Location = New System.Drawing.Point(200, 196)
         Me.rbEnsureDaily.Name = "rbEnsureDaily"
         Me.rbEnsureDaily.Size = New System.Drawing.Size(51, 17)
         Me.rbEnsureDaily.TabIndex = 22
-        Me.rbEnsureDaily.TabStop = True
+        Me.rbEnsureDaily.TabStop = true
         Me.rbEnsureDaily.Text = "Daily:"
-        Me.rbEnsureDaily.UseVisualStyleBackColor = True
+        Me.rbEnsureDaily.UseVisualStyleBackColor = true
         '
         'rbEnsureNever
         '
-        Me.rbEnsureNever.AutoSize = True
+        Me.rbEnsureNever.AutoSize = true
         Me.rbEnsureNever.Location = New System.Drawing.Point(139, 196)
         Me.rbEnsureNever.Name = "rbEnsureNever"
         Me.rbEnsureNever.Size = New System.Drawing.Size(54, 17)
         Me.rbEnsureNever.TabIndex = 21
         Me.rbEnsureNever.Text = "Never"
-        Me.rbEnsureNever.UseVisualStyleBackColor = True
+        Me.rbEnsureNever.UseVisualStyleBackColor = true
         '
         'lblSync
         '
-        Me.lblSync.AutoSize = True
+        Me.lblSync.AutoSize = true
         Me.lblSync.Location = New System.Drawing.Point(5, 198)
         Me.lblSync.Name = "lblSync"
         Me.lblSync.Size = New System.Drawing.Size(107, 13)
@@ -494,7 +494,7 @@ Partial Class Settings
         '
         'lblFoldSep
         '
-        Me.lblFoldSep.AutoSize = True
+        Me.lblFoldSep.AutoSize = true
         Me.lblFoldSep.Location = New System.Drawing.Point(295, 61)
         Me.lblFoldSep.Name = "lblFoldSep"
         Me.lblFoldSep.Size = New System.Drawing.Size(65, 13)
@@ -503,7 +503,7 @@ Partial Class Settings
         '
         'lblFileSep
         '
-        Me.lblFileSep.AutoSize = True
+        Me.lblFileSep.AutoSize = true
         Me.lblFileSep.Location = New System.Drawing.Point(295, 39)
         Me.lblFileSep.Name = "lblFileSep"
         Me.lblFileSep.Size = New System.Drawing.Size(65, 13)
@@ -521,7 +521,7 @@ Partial Class Settings
         '
         'lblMaxFileSize
         '
-        Me.lblMaxFileSize.AutoSize = True
+        Me.lblMaxFileSize.AutoSize = true
         Me.lblMaxFileSize.Location = New System.Drawing.Point(3, 83)
         Me.lblMaxFileSize.Name = "lblMaxFileSize"
         Me.lblMaxFileSize.Size = New System.Drawing.Size(72, 13)
@@ -539,7 +539,7 @@ Partial Class Settings
         '
         'lblExclFiles
         '
-        Me.lblExclFiles.AutoSize = True
+        Me.lblExclFiles.AutoSize = true
         Me.lblExclFiles.Location = New System.Drawing.Point(3, 39)
         Me.lblExclFiles.Name = "lblExclFiles"
         Me.lblExclFiles.Size = New System.Drawing.Size(72, 13)
@@ -556,7 +556,7 @@ Partial Class Settings
         '
         'lblExclFold
         '
-        Me.lblExclFold.AutoSize = True
+        Me.lblExclFold.AutoSize = true
         Me.lblExclFold.Location = New System.Drawing.Point(3, 61)
         Me.lblExclFold.Name = "lblExclFold"
         Me.lblExclFold.Size = New System.Drawing.Size(85, 13)
@@ -574,7 +574,7 @@ Partial Class Settings
         '
         'lblIncFiles
         '
-        Me.lblIncFiles.AutoSize = True
+        Me.lblIncFiles.AutoSize = true
         Me.lblIncFiles.Location = New System.Drawing.Point(3, 17)
         Me.lblIncFiles.Name = "lblIncFiles"
         Me.lblIncFiles.Size = New System.Drawing.Size(69, 13)
@@ -583,13 +583,13 @@ Partial Class Settings
         '
         'chkDelete
         '
-        Me.chkDelete.AutoSize = True
+        Me.chkDelete.AutoSize = true
         Me.chkDelete.Location = New System.Drawing.Point(6, 150)
         Me.chkDelete.Name = "chkDelete"
         Me.chkDelete.Size = New System.Drawing.Size(230, 17)
         Me.chkDelete.TabIndex = 6
         Me.chkDelete.Text = "Delete backup files when original is deleted"
-        Me.chkDelete.UseVisualStyleBackColor = True
+        Me.chkDelete.UseVisualStyleBackColor = true
         '
         'tabVer
         '
@@ -605,7 +605,7 @@ Partial Class Settings
         Me.tabVer.Size = New System.Drawing.Size(373, 282)
         Me.tabVer.TabIndex = 2
         Me.tabVer.Text = "Versioning"
-        Me.tabVer.UseVisualStyleBackColor = True
+        Me.tabVer.UseVisualStyleBackColor = true
         '
         'grpArc
         '
@@ -620,12 +620,12 @@ Partial Class Settings
         Me.grpArc.Name = "grpArc"
         Me.grpArc.Size = New System.Drawing.Size(358, 77)
         Me.grpArc.TabIndex = 41
-        Me.grpArc.TabStop = False
+        Me.grpArc.TabStop = false
         Me.grpArc.Text = "Archiving"
         '
         'lblVersOlder
         '
-        Me.lblVersOlder.AutoSize = True
+        Me.lblVersOlder.AutoSize = true
         Me.lblVersOlder.Location = New System.Drawing.Point(6, 25)
         Me.lblVersOlder.Name = "lblVersOlder"
         Me.lblVersOlder.Size = New System.Drawing.Size(114, 13)
@@ -643,7 +643,7 @@ Partial Class Settings
         '
         'lblVerDays
         '
-        Me.lblVerDays.AutoSize = True
+        Me.lblVerDays.AutoSize = true
         Me.lblVerDays.Location = New System.Drawing.Point(167, 25)
         Me.lblVerDays.Name = "lblVerDays"
         Me.lblVerDays.Size = New System.Drawing.Size(38, 13)
@@ -652,49 +652,49 @@ Partial Class Settings
         '
         'radNothing
         '
-        Me.radNothing.AutoSize = True
-        Me.radNothing.Checked = True
+        Me.radNothing.AutoSize = true
+        Me.radNothing.Checked = true
         Me.radNothing.Location = New System.Drawing.Point(217, 25)
         Me.radNothing.Name = "radNothing"
         Me.radNothing.Size = New System.Drawing.Size(62, 17)
         Me.radNothing.TabIndex = 4
-        Me.radNothing.TabStop = True
+        Me.radNothing.TabStop = true
         Me.radNothing.Text = "Nothing"
         Me.ToolTip1.SetToolTip(Me.radNothing, "Default. Don't touch the old versions")
-        Me.radNothing.UseVisualStyleBackColor = True
+        Me.radNothing.UseVisualStyleBackColor = true
         '
         'radDelete
         '
-        Me.radDelete.AutoSize = True
+        Me.radDelete.AutoSize = true
         Me.radDelete.Location = New System.Drawing.Point(285, 25)
         Me.radDelete.Name = "radDelete"
         Me.radDelete.Size = New System.Drawing.Size(56, 17)
         Me.radDelete.TabIndex = 5
         Me.radDelete.Text = "Delete"
         Me.ToolTip1.SetToolTip(Me.radDelete, "Delete the old versions")
-        Me.radDelete.UseVisualStyleBackColor = True
+        Me.radDelete.UseVisualStyleBackColor = true
         '
         'radZip
         '
-        Me.radZip.AutoSize = True
+        Me.radZip.AutoSize = true
         Me.radZip.Location = New System.Drawing.Point(218, 48)
         Me.radZip.Name = "radZip"
         Me.radZip.Size = New System.Drawing.Size(40, 17)
         Me.radZip.TabIndex = 6
         Me.radZip.Text = "Zip"
         Me.ToolTip1.SetToolTip(Me.radZip, "Good compression and very fast")
-        Me.radZip.UseVisualStyleBackColor = True
+        Me.radZip.UseVisualStyleBackColor = true
         '
         'rad7Zip
         '
-        Me.rad7Zip.AutoSize = True
+        Me.rad7Zip.AutoSize = true
         Me.rad7Zip.Location = New System.Drawing.Point(285, 48)
         Me.rad7Zip.Name = "rad7Zip"
         Me.rad7Zip.Size = New System.Drawing.Size(49, 17)
         Me.rad7Zip.TabIndex = 34
         Me.rad7Zip.Text = "7-Zip"
         Me.ToolTip1.SetToolTip(Me.rad7Zip, "7-Zip must be installed. Best compression")
-        Me.rad7Zip.UseVisualStyleBackColor = True
+        Me.rad7Zip.UseVisualStyleBackColor = true
         '
         'grpArcTo
         '
@@ -706,47 +706,47 @@ Partial Class Settings
         Me.grpArcTo.Name = "grpArcTo"
         Me.grpArcTo.Size = New System.Drawing.Size(358, 58)
         Me.grpArcTo.TabIndex = 42
-        Me.grpArcTo.TabStop = False
+        Me.grpArcTo.TabStop = false
         Me.grpArcTo.Text = "Archive To"
         '
         'rbZipModeF
         '
-        Me.rbZipModeF.AutoSize = True
+        Me.rbZipModeF.AutoSize = true
         Me.rbZipModeF.Location = New System.Drawing.Point(285, 24)
         Me.rbZipModeF.Name = "rbZipModeF"
         Me.rbZipModeF.Size = New System.Drawing.Size(41, 17)
         Me.rbZipModeF.TabIndex = 44
         Me.rbZipModeF.Text = "File"
         Me.ToolTip1.SetToolTip(Me.rbZipModeF, "Archive file will be the file name.zip/7z in the backed up folder")
-        Me.rbZipModeF.UseVisualStyleBackColor = True
+        Me.rbZipModeF.UseVisualStyleBackColor = true
         '
         'rbZipModeD
         '
-        Me.rbZipModeD.AutoSize = True
+        Me.rbZipModeD.AutoSize = true
         Me.rbZipModeD.Location = New System.Drawing.Point(217, 24)
         Me.rbZipModeD.Name = "rbZipModeD"
         Me.rbZipModeD.Size = New System.Drawing.Size(54, 17)
         Me.rbZipModeD.TabIndex = 43
         Me.rbZipModeD.Text = "Folder"
         Me.ToolTip1.SetToolTip(Me.rbZipModeD, "Archive file will be the folder name.zip/7z in the backed up folder")
-        Me.rbZipModeD.UseVisualStyleBackColor = True
+        Me.rbZipModeD.UseVisualStyleBackColor = true
         '
         'rbZipModeW
         '
-        Me.rbZipModeW.AutoSize = True
-        Me.rbZipModeW.Checked = True
+        Me.rbZipModeW.AutoSize = true
+        Me.rbZipModeW.Checked = true
         Me.rbZipModeW.Location = New System.Drawing.Point(126, 24)
         Me.rbZipModeW.Name = "rbZipModeW"
         Me.rbZipModeW.Size = New System.Drawing.Size(66, 17)
         Me.rbZipModeW.TabIndex = 42
-        Me.rbZipModeW.TabStop = True
+        Me.rbZipModeW.TabStop = true
         Me.rbZipModeW.Text = "Watcher"
         Me.ToolTip1.SetToolTip(Me.rbZipModeW, "Archive file will be BackupVersions.zip/7z in the Backup folder root")
-        Me.rbZipModeW.UseVisualStyleBackColor = True
+        Me.rbZipModeW.UseVisualStyleBackColor = true
         '
         'lblZip1
         '
-        Me.lblZip1.AutoSize = True
+        Me.lblZip1.AutoSize = true
         Me.lblZip1.Location = New System.Drawing.Point(6, 26)
         Me.lblZip1.Name = "lblZip1"
         Me.lblZip1.Size = New System.Drawing.Size(80, 13)
@@ -765,7 +765,7 @@ Partial Class Settings
         Me.grpVerMax.Name = "grpVerMax"
         Me.grpVerMax.Size = New System.Drawing.Size(165, 90)
         Me.grpVerMax.TabIndex = 33
-        Me.grpVerMax.TabStop = False
+        Me.grpVerMax.TabStop = false
         Me.grpVerMax.Text = "Max 1 version per "
         '
         'txtVerRateS
@@ -779,7 +779,7 @@ Partial Class Settings
         '
         'lblHourMinSec
         '
-        Me.lblHourMinSec.AutoSize = True
+        Me.lblHourMinSec.AutoSize = true
         Me.lblHourMinSec.Location = New System.Drawing.Point(24, 69)
         Me.lblHourMinSec.Name = "lblHourMinSec"
         Me.lblHourMinSec.Size = New System.Drawing.Size(99, 13)
@@ -804,26 +804,26 @@ Partial Class Settings
         '
         'rbVerRate
         '
-        Me.rbVerRate.AutoSize = True
+        Me.rbVerRate.AutoSize = true
         Me.rbVerRate.Location = New System.Drawing.Point(7, 44)
         Me.rbVerRate.Name = "rbVerRate"
         Me.rbVerRate.Size = New System.Drawing.Size(14, 13)
         Me.rbVerRate.TabIndex = 1
         Me.ToolTip1.SetToolTip(Me.rbVerRate, "Only copy the file every so often when it is changed/saved")
-        Me.rbVerRate.UseVisualStyleBackColor = True
+        Me.rbVerRate.UseVisualStyleBackColor = true
         '
         'rbVerAll
         '
-        Me.rbVerAll.AutoSize = True
-        Me.rbVerAll.Checked = True
+        Me.rbVerAll.AutoSize = true
+        Me.rbVerAll.Checked = true
         Me.rbVerAll.Location = New System.Drawing.Point(7, 20)
         Me.rbVerAll.Name = "rbVerAll"
         Me.rbVerAll.Size = New System.Drawing.Size(81, 17)
         Me.rbVerAll.TabIndex = 0
-        Me.rbVerAll.TabStop = True
+        Me.rbVerAll.TabStop = true
         Me.rbVerAll.Text = "All Changes"
         Me.ToolTip1.SetToolTip(Me.rbVerAll, "Make a new copy every time the file is changed or saved")
-        Me.rbVerAll.UseVisualStyleBackColor = True
+        Me.rbVerAll.UseVisualStyleBackColor = true
         '
         'grpVerMode
         '
@@ -834,48 +834,48 @@ Partial Class Settings
         Me.grpVerMode.Name = "grpVerMode"
         Me.grpVerMode.Size = New System.Drawing.Size(187, 90)
         Me.grpVerMode.TabIndex = 32
-        Me.grpVerMode.TabStop = False
+        Me.grpVerMode.TabStop = false
         Me.grpVerMode.Text = "Versioning Mode"
         '
         'rbVersionPrev
         '
-        Me.rbVersionPrev.AutoSize = True
+        Me.rbVersionPrev.AutoSize = true
         Me.rbVersionPrev.Location = New System.Drawing.Point(6, 65)
         Me.rbVersionPrev.Name = "rbVersionPrev"
         Me.rbVersionPrev.Size = New System.Drawing.Size(169, 17)
         Me.rbVersionPrev.TabIndex = 9
         Me.rbVersionPrev.Text = "Version previous backups only"
-        Me.ToolTip1.SetToolTip(Me.rbVersionPrev, "Previous backup is renamed to include a timestamp. Current backup does not have a" & _
+        Me.ToolTip1.SetToolTip(Me.rbVersionPrev, "Previous backup is renamed to include a timestamp. Current backup does not have a"& _ 
         " timestamp")
-        Me.rbVersionPrev.UseVisualStyleBackColor = True
+        Me.rbVersionPrev.UseVisualStyleBackColor = true
         '
         'rbVersionAll
         '
-        Me.rbVersionAll.AutoSize = True
-        Me.rbVersionAll.Checked = True
+        Me.rbVersionAll.AutoSize = true
+        Me.rbVersionAll.Checked = true
         Me.rbVersionAll.Location = New System.Drawing.Point(6, 42)
         Me.rbVersionAll.Name = "rbVersionAll"
         Me.rbVersionAll.Size = New System.Drawing.Size(133, 17)
         Me.rbVersionAll.TabIndex = 8
-        Me.rbVersionAll.TabStop = True
+        Me.rbVersionAll.TabStop = true
         Me.rbVersionAll.Text = "Version all backup files"
         Me.ToolTip1.SetToolTip(Me.rbVersionAll, "Every backup file has a timestamp")
-        Me.rbVersionAll.UseVisualStyleBackColor = True
+        Me.rbVersionAll.UseVisualStyleBackColor = true
         '
         'rbNone
         '
-        Me.rbNone.AutoSize = True
+        Me.rbNone.AutoSize = true
         Me.rbNone.Location = New System.Drawing.Point(6, 19)
         Me.rbNone.Name = "rbNone"
         Me.rbNone.Size = New System.Drawing.Size(172, 17)
         Me.rbNone.TabIndex = 7
         Me.rbNone.Text = "None - Update backup file only"
         Me.ToolTip1.SetToolTip(Me.rbNone, "No versioning (time stamping). Just backup the file to the same name")
-        Me.rbNone.UseVisualStyleBackColor = True
+        Me.rbNone.UseVisualStyleBackColor = true
         '
         'lblTimeStamp
         '
-        Me.lblTimeStamp.AutoSize = True
+        Me.lblTimeStamp.AutoSize = true
         Me.lblTimeStamp.Location = New System.Drawing.Point(7, 105)
         Me.lblTimeStamp.Name = "lblTimeStamp"
         Me.lblTimeStamp.Size = New System.Drawing.Size(92, 13)
@@ -909,12 +909,12 @@ Partial Class Settings
         Me.tabFTP.Size = New System.Drawing.Size(373, 282)
         Me.tabFTP.TabIndex = 3
         Me.tabFTP.Text = "FTP"
-        Me.tabFTP.UseVisualStyleBackColor = True
+        Me.tabFTP.UseVisualStyleBackColor = true
         '
         'chkFTPPassive
         '
-        Me.chkFTPPassive.AutoSize = True
-        Me.chkFTPPassive.Checked = True
+        Me.chkFTPPassive.AutoSize = true
+        Me.chkFTPPassive.Checked = true
         Me.chkFTPPassive.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkFTPPassive.Location = New System.Drawing.Point(10, 117)
         Me.chkFTPPassive.Name = "chkFTPPassive"
@@ -922,11 +922,11 @@ Partial Class Settings
         Me.chkFTPPassive.TabIndex = 4
         Me.chkFTPPassive.Text = "Passive"
         Me.ToolTip1.SetToolTip(Me.chkFTPPassive, "Passive or Active connection")
-        Me.chkFTPPassive.UseVisualStyleBackColor = True
+        Me.chkFTPPassive.UseVisualStyleBackColor = true
         '
         'lblFtpAnon
         '
-        Me.lblFtpAnon.AutoSize = True
+        Me.lblFtpAnon.AutoSize = true
         Me.lblFtpAnon.Location = New System.Drawing.Point(182, 59)
         Me.lblFtpAnon.Name = "lblFtpAnon"
         Me.lblFtpAnon.Size = New System.Drawing.Size(100, 13)
@@ -935,7 +935,7 @@ Partial Class Settings
         '
         'lblFtpPass
         '
-        Me.lblFtpPass.AutoSize = True
+        Me.lblFtpPass.AutoSize = true
         Me.lblFtpPass.Location = New System.Drawing.Point(7, 89)
         Me.lblFtpPass.Name = "lblFtpPass"
         Me.lblFtpPass.Size = New System.Drawing.Size(56, 13)
@@ -950,11 +950,11 @@ Partial Class Settings
         Me.txtFTPPassword.Size = New System.Drawing.Size(100, 20)
         Me.txtFTPPassword.TabIndex = 3
         Me.ToolTip1.SetToolTip(Me.txtFTPPassword, "Password or email for anonymous")
-        Me.txtFTPPassword.UseSystemPasswordChar = True
+        Me.txtFTPPassword.UseSystemPasswordChar = true
         '
         'lblFtpUser
         '
-        Me.lblFtpUser.AutoSize = True
+        Me.lblFtpUser.AutoSize = true
         Me.lblFtpUser.Location = New System.Drawing.Point(7, 59)
         Me.lblFtpUser.Name = "lblFtpUser"
         Me.lblFtpUser.Size = New System.Drawing.Size(63, 13)
@@ -971,7 +971,7 @@ Partial Class Settings
         '
         'lblFtpHost
         '
-        Me.lblFtpHost.AutoSize = True
+        Me.lblFtpHost.AutoSize = true
         Me.lblFtpHost.Location = New System.Drawing.Point(7, 33)
         Me.lblFtpHost.Name = "lblFtpHost"
         Me.lblFtpHost.Size = New System.Drawing.Size(32, 13)
@@ -988,7 +988,7 @@ Partial Class Settings
         '
         'lblFtpIf
         '
-        Me.lblFtpIf.AutoSize = True
+        Me.lblFtpIf.AutoSize = true
         Me.lblFtpIf.Location = New System.Drawing.Point(7, 7)
         Me.lblFtpIf.Name = "lblFtpIf"
         Me.lblFtpIf.Size = New System.Drawing.Size(150, 13)
@@ -1004,7 +1004,7 @@ Partial Class Settings
         Me.butCancel.Size = New System.Drawing.Size(100, 23)
         Me.butCancel.TabIndex = 9
         Me.butCancel.Text = "Cancel"
-        Me.butCancel.UseVisualStyleBackColor = True
+        Me.butCancel.UseVisualStyleBackColor = true
         '
         'butOK
         '
@@ -1015,7 +1015,7 @@ Partial Class Settings
         Me.butOK.Size = New System.Drawing.Size(100, 23)
         Me.butOK.TabIndex = 8
         Me.butOK.Text = "OK"
-        Me.butOK.UseVisualStyleBackColor = True
+        Me.butOK.UseVisualStyleBackColor = true
         '
         'btnHelp
         '
@@ -1025,11 +1025,11 @@ Partial Class Settings
         Me.btnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnHelp.Location = New System.Drawing.Point(15, 326)
         Me.btnHelp.Name = "btnHelp"
-        Me.HelpProvider1.SetShowHelp(Me.btnHelp, True)
+        Me.HelpProvider1.SetShowHelp(Me.btnHelp, true)
         Me.btnHelp.Size = New System.Drawing.Size(100, 23)
         Me.btnHelp.TabIndex = 10
         Me.btnHelp.Text = "Help"
-        Me.btnHelp.UseVisualStyleBackColor = True
+        Me.btnHelp.UseVisualStyleBackColor = true
         '
         'HelpProvider1
         '
@@ -1051,7 +1051,7 @@ Partial Class Settings
         '
         'Settings
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(405, 357)
         Me.Controls.Add(Me.btnHelp)
@@ -1062,34 +1062,34 @@ Partial Class Settings
         Me.HelpProvider1.SetHelpKeyword(Me, "3")
         Me.HelpProvider1.SetHelpNavigator(Me, System.Windows.Forms.HelpNavigator.TopicId)
         Me.HelpProvider1.SetHelpString(Me, "3")
-        Me.MaximizeBox = False
+        Me.MaximizeBox = false
         Me.Name = "Settings"
-        Me.HelpProvider1.SetShowHelp(Me, True)
-        Me.ShowIcon = False
-        Me.ShowInTaskbar = False
+        Me.HelpProvider1.SetShowHelp(Me, true)
+        Me.ShowIcon = false
+        Me.ShowInTaskbar = false
         Me.Text = "Settings"
-        Me.tabControl.ResumeLayout(False)
-        Me.tabGen.ResumeLayout(False)
-        Me.tabGen.PerformLayout()
-        Me.grpType.ResumeLayout(False)
-        Me.grpType.PerformLayout()
-        Me.tabAdv.ResumeLayout(False)
-        Me.tabAdv.PerformLayout()
-        Me.tabVer.ResumeLayout(False)
-        Me.tabVer.PerformLayout()
-        Me.grpArc.ResumeLayout(False)
-        Me.grpArc.PerformLayout()
-        Me.grpArcTo.ResumeLayout(False)
-        Me.grpArcTo.PerformLayout()
-        Me.grpVerMax.ResumeLayout(False)
-        Me.grpVerMax.PerformLayout()
-        Me.grpVerMode.ResumeLayout(False)
-        Me.grpVerMode.PerformLayout()
-        Me.tabFTP.ResumeLayout(False)
-        Me.tabFTP.PerformLayout()
-        Me.ResumeLayout(False)
+        Me.tabControl.ResumeLayout(false)
+        Me.tabGen.ResumeLayout(false)
+        Me.tabGen.PerformLayout
+        Me.grpType.ResumeLayout(false)
+        Me.grpType.PerformLayout
+        Me.tabAdv.ResumeLayout(false)
+        Me.tabAdv.PerformLayout
+        Me.tabVer.ResumeLayout(false)
+        Me.tabVer.PerformLayout
+        Me.grpArc.ResumeLayout(false)
+        Me.grpArc.PerformLayout
+        Me.grpArcTo.ResumeLayout(false)
+        Me.grpArcTo.PerformLayout
+        Me.grpVerMax.ResumeLayout(false)
+        Me.grpVerMax.PerformLayout
+        Me.grpVerMode.ResumeLayout(false)
+        Me.grpVerMode.PerformLayout
+        Me.tabFTP.ResumeLayout(false)
+        Me.tabFTP.PerformLayout
+        Me.ResumeLayout(false)
 
-    End Sub
+End Sub
     Friend WithEvents tabControl As System.Windows.Forms.TabControl
     Friend WithEvents tabGen As System.Windows.Forms.TabPage
     Friend WithEvents lblBackFold As System.Windows.Forms.Label
@@ -1125,7 +1125,6 @@ Partial Class Settings
     Friend WithEvents txtName As System.Windows.Forms.TextBox
     Friend WithEvents lblTimeStamp As System.Windows.Forms.Label
     Friend WithEvents txtDateTimeStamp As System.Windows.Forms.TextBox
-    Friend WithEvents HelpProvider1 As System.Windows.Forms.HelpProvider
     Friend WithEvents tabFTP As System.Windows.Forms.TabPage
     Friend WithEvents lblFtpAnon As System.Windows.Forms.Label
     Friend WithEvents lblFtpPass As System.Windows.Forms.Label
@@ -1178,4 +1177,5 @@ Partial Class Settings
     Friend WithEvents chkCompareBeforeCopy As System.Windows.Forms.CheckBox
     Friend WithEvents tmrEnsureSyncUpdates As System.Windows.Forms.Timer
     Friend WithEvents bwBackupRestore As System.ComponentModel.BackgroundWorker
+    Friend WithEvents HelpProvider1 As HelpProvider
 End Class
