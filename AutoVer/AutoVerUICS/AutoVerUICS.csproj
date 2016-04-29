@@ -184,6 +184,12 @@
     <None Include="Resources\icon_cancel.gif" />
     <None Include="Resources\help.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoVerEngine\AutoVerEngine.vbproj">
+      <Project>{1aadb245-4e76-4a25-9952-520e0c934f00}</Project>
+      <Name>AutoVerEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
